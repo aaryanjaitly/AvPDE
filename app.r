@@ -13,6 +13,7 @@ virtualenv_create("r-reticulate")
 virtualenv_install("r-reticulate", "modlamp")
 virtualenv_install("r-reticulate", "pandas")
 virtualenv_install("r-reticulate", "numpy")
+use_virtualenv("r-reticulate")
 
 modlamp <- import("modlamp")
 pandas <-import("pandas")
