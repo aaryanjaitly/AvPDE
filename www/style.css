@@ -1,0 +1,141 @@
+.navbar{
+  padding-bottom: 3px;
+  padding-top: 5px;
+}
+
+nav .container-fluid{
+  background-color: rgba(22, 22, 23, .8);
+  padding-bottom: 5px;
+  border-radius: 10px 20px;
+}
+
+.nav-item a:hover{
+  color: #0071e3;
+}
+
+.navbar-brand{
+  color: rgba(255, 255, 255, .8);
+  padding-left: 10px;
+}
+
+.navbar-brand:hover{
+  color: #0071e3;
+}
+
+.nav-item a{
+  color: rgba(255,255,255,0.8);
+}
+
+h1{
+  color:#f5f5f7;
+  margin-left:300px;
+  margin-right: 300px;
+  background-color: #0071e3;
+  border-radius: 10px 20px;
+}
+
+h1:hover{
+  color: #0071e3;
+  background-color:#f5f5f7;
+}
+
+
+h2{
+  color:#0071e3;
+  margin-left:300px;
+  margin-right: 300px;
+  background-color: #f5f5f7;
+  border-radius: 15px;
+}
+
+h2:hover{
+  color: #f5f5f7;
+  background-color:#0071e3;
+}
+
+
+.nav-item, .nav-pills > li {
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-color: black;
+  --bs-nav-pills-link-active-bg: orange;
+  
+}
+
+#bonding, #Smiles{
+  text-align: center;
+}
+
+h3{
+  border-radius: 10px 20px;
+  color:rgba(22, 23, 23, .9);
+}
+
+.shiny-input-text{
+  border-color: rgba(22, 23, 23, .7);
+  border-radius: 3px 6px;
+  border-width: 3px;
+  padding:5px;
+  background-color:#f5f5f7;
+  color:rgba(22, 23, 23, .7);
+}
+
+.shiny-input-text:hover{
+  border-color: #f5f5f7;
+  border-radius: 3px 6px;
+  border-width: 3px;
+  padding:5px;
+  background-color:rgba(22, 23, 23, .7);
+  color:#f5f5f7;
+}
+
+label{
+color:  #0071e3;
+}
+
+#Mutation_Download_df{
+  color: #0071e3;
+}
+
+.irs--shiny .irs-bar{
+  background-color:orange;
+  border-color: orange;
+}
+
+.navbar-nav .nav-link.active{
+  color: orange;
+}
+.shiny-table.spacing-s > thead > tr > th{
+  color:black;
+}
+
+div.dataTables_filter input{
+  width: 150px;
+}
+
+.nav-pills > li > a.active{
+  border-radius: 10px 20px;
+}
+
+table.dataTable.cell-border > tbody > tr:first-child > td{
+  display: none;
+}
+
+
+.bslib-gap-spacing > .bslib-mb-spacing{
+  border-radius: 35px;
+  border-color: orange;
+  border-width: 2px;
+}
+
+h4{
+  color:rgba(22, 23, 23, .8)
+}
+
+p{
+  font-family: helvetica;
+  color: black;
+}
