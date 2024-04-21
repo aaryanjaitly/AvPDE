@@ -421,7 +421,7 @@ ui <- fluidPage(
   tags$div(
     navbarPage(
       includeCSS("www/style.css"),
-      title = span(tags$u(tags$b("AVP-DE")), style = "padding: 3px; color:magenta"),
+      title = span(tags$u(tags$b("AVP-DE")), style = "padding: 3px; color:magenta;font-size: 50px;font-style: italic;"),
       tabPanel(
         "Home",
         id = "Home_Page",
