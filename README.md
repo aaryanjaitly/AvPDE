@@ -5,7 +5,7 @@ Our web application represents a significant step forward in the field of peptid
 ### Type on R console or on R studio:-
 library(shiny);
 
-runGitHub(repo = "AVPDE", username = "aaryanjaitly", ref="main");
+runGitHub(repo = "AvPDE", username = "aaryanjaitly", ref="main");
 
 ## Note:
 If Pop-up asks for restarting the R-Session please select NO.
