@@ -807,7 +807,7 @@ ui <- fluidPage(
                          ),
                        ),
                        tabPanel(
-                         "EDAPlot",
+                         "EDA Plot",
                          tags$div(
                            fluidRow(
                              plotOutput("eda_plot", width = "93%", height = "700") 
@@ -830,7 +830,7 @@ ui <- fluidPage(
                          ),
                        ),
                        tabPanel(
-                         "BoxPlots",
+                         "Box Plots",
                          tags$div(
                            fluidRow(
                              plotOutput("box_plots", width = "98%") 
