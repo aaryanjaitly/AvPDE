@@ -404,7 +404,7 @@ eda_plot <- function(df){
 boxplots <- function(df){
   df = subset(df, select = -c(MW,ChargeDensity,pI) )
   data_long <- melt(df)
-  plot <- ggplot(data_long, aes(x = Physicochemical_Parameters, y = log(value), color = Physicochemical_Parameters)) +
+  plot <- ggplot(data_long, aes(x = variable, y = log(value), color = variable)) +
     geom_boxplot() +
     theme_classic() +
     theme(axis.title = element_text(face="bold", size = 12),
