@@ -20,9 +20,9 @@ library(DT)
 library(Peptides)
 
 virtualenv_create("r-reticulate")
-virtualenv_install("r-reticulate", "modlamp")
-virtualenv_install("r-reticulate", "pandas")
 virtualenv_install("r-reticulate", "numpy")
+virtualenv_install("r-reticulate", "pandas")
+virtualenv_install("r-reticulate", "modlamp")
 use_virtualenv("r-reticulate")
 
 modlamp <- import("modlamp")
